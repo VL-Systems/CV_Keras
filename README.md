@@ -8,12 +8,12 @@
 ## План разработки модели 
 1. Сделать простую сеть добавляя новое количество слоёв в сеть, добиться переобучения (model_1)
 2. Сделать агментацию данных и работать с расширенным датасетом (model_2)
-2.1 Добавить слой dropout (model_21)
-2.2 Добавить регуляризацию L1_L2 (model_22)
+  * 2.1 Добавить слой dropout (model_21)
+  - 2.2 Добавить регуляризацию L1_L2 (model_22)
 3. Feature extraction с VGG16 (model_3)
 4. Fine-tuning с VGG16 (model_4)
-4.1 Fine Tuning VGG16  + BatchNormalization + Dense(256) (model_5)
-4.2 Fine Tuning VGG16  + BatchNormalization + Dense(128) (model_6)
+  * 4.1 Fine Tuning VGG16  + BatchNormalization + Dense(256) (model_5)
+  - 4.2 Fine Tuning VGG16  + BatchNormalization + Dense(128) (model_6)
 
 Процедура обучения нейронной сети была выполнена на GeForce GTX 1050 4Гб
 
